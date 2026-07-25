@@ -1,24 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>BossEvolution</AssemblyName>
+    <RootNamespace>BossEvolution</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>..\out\$(Configuration)</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="TerrariaServer">
-      <HintPath>..\lib\TerrariaServer.dll</HintPath>
-    </Reference>
-    <Reference Include="TShockAPI">
-      <HintPath>..\lib\TShockAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="OTAPI">
-      <HintPath>..\lib\OTAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="ModFramework">
-      <HintPath>..\lib\ModFramework.dll</HintPath>
-    </Reference>
+    <PackageReference Include="TShock" Version="6.1.0">
+      <IncludeAssets>compile</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
-
-</Project> 
+</Project>
