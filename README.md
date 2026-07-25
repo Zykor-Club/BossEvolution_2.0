@@ -1,123 +1,120 @@
-# Boss Evolution Plugin for TShock ( V2.0 ) - Update SKill And BOSS
+# Boss Evolution（Boss 进化）TShock 插件（V2.0）- 技能与 Boss 更新
 
-## 🌟 Transform Your Terraria Boss Battles into Epic Adventures! 🌟
+## 🌟 将你的 Terraria Boss 战斗转化为史诗冒险！🌟
 
-Boss Evolution is a revolutionary TShock plugin that completely reimagines boss fights in Terraria. Watch as your favorite bosses evolve and combine abilities from other bosses, creating unique and challenging encounters every time!
+Boss Evolution 是一款革命性的 TShock 插件，它彻底重新定义了 Terraria 中的 Boss 战斗。看着你最喜欢的 Boss 不断进化，并组合其他 Boss 的能力，每次都创造独一无二、充满挑战的战斗体验！
 
-### ✨ Key Features:
+### ✨ 核心特性：
 
-- **Dynamic Skill System**: Bosses randomly inherit skills from other bosses
-- **Progressive Difficulty**: Three distinct phases with increasing challenge
-- **Adaptive AI**: Bosses become more aggressive at low health
-- **Smart Minion Control**: Enhanced minion behavior and coordination
-- **Flying Abilities**: Non-flying bosses can gain aerial capabilities
-- **Custom Nicknames**: Each evolved boss gets a unique, epic name
-- **Balanced Rewards**: Better rewards for defeating more challenging boss combinations
+- **动态技能系统**：Boss 随机继承其他 Boss 的技能
+- **渐进式难度**：三个截然不同的阶段，挑战逐步升级
+- **自适应 AI**：Boss 在低血量时变得更加激进
+- **智能仆从控制**：增强的仆从行为和协同能力
+- **飞行能力**：不会飞的 Boss 也能获得空中作战能力
+- **自定义昵称**：每个进化的 Boss 都会获得一个独一无二的史诗名称
+- **平衡的奖励**：击败更具挑战性的 Boss 组合可获得更丰厚的奖励
 
-### 🎮 Gameplay Features:
+### 🎮 游戏特性：
 
-- **Phase System**:
-  - Phase 1 (100% - 50% HP): 5 skills
-  - Phase 2 (50% - 30% HP): 6 skills
-  - Phase 3 (30% - 0% HP): 7-8 skills (Normal/Hardmode)
+- **相位系统**：
+  - 第一阶段（100% - 50% HP）：5 个技能
+  - 第二阶段（50% - 30% HP）：6 个技能
+  - 第三阶段（30% - 0% HP）：7-8 个技能（普通/困难模式）
 
-- **Skill Categories**:
-  - Projectile Attacks
-  - Dash Movements
-  - Minion Summoning
-  - Special Abilities
+- **技能类别**：
+  - 弹幕攻击
+  - 冲刺位移
+  - 仆从召唤
+  - 特殊能力
 
-- **Enhanced Boss Mechanics**:
-  - Intelligent targeting
-  - Predictive movement
-  - Coordinated minion attacks
-  - Dynamic difficulty scaling
+- **强化的 Boss 机制**：
+  - 智能目标选取
+  - 预判性移动
+  - 协同仆从攻击
+  - 动态难度调节
 
-### 💎 What Makes It Special:
+### 💎 独特之处：
 
-- Every boss fight is unique
-- Challenging but fair difficulty
-- Seamless skill combinations
-- Enhanced visual effects
-- Balanced progression system
+- 每场 Boss 战都独一无二
+- 充满挑战但公平的难度
+- 无缝的技能组合
+- 增强的视觉效果
+- 平衡的进度系统
 
-### 🛠️ Technical Features:
+### 🛠️ 技术特性：
 
-- Fully configurable
-- Server-side processing
-- Efficient performance
-- Compatible with other mods
-- Regular updates and support
+- 完全可配置
+- 服务端处理
+- 高效性能
+- 兼容其他模组
+- 定期更新与支持
 
-### 📋 Requirements:
+### 📋 环境要求：
 
 - TShock for Terraria
 - Terraria Server v1.4.4.9
-- .NET Framework 4.7.2 or higher
+- .NET Framework 4.7.2 或更高版本
 
-### 🎯 Perfect For:
+### 🎯 适用人群：
 
-- Server owners looking to enhance PvE content
-- Players seeking new challenges
-- Communities wanting fresh Terraria experiences
-- Anyone who loves dynamic boss fights
+- 希望增强 PvE 内容的服务器服主
+- 寻求新挑战的玩家
+- 渴望全新 Terraria 体验的社区
+- 任何热爱动态 Boss 战的玩家
 
-Transform your Terraria server into an exciting battlefield where every boss fight becomes a unique and memorable experience!
-
----
-Made with ❤️ by GILX_Dev TERRARIAVUI
-
-## 📖 Installation
-
-1. Download the latest release from the releases page
-2. Place `BossEvolution.dll` in your server's `ServerPlugins` folder
-3. Restart your TShock server
-
-## 💡 Tips
-
-1. **For Players**
-   - Watch for boss name announcements to know what abilities to expect
-   - Be prepared for increased difficulty in later phases
-   - Keep moving to avoid predictive attacks
-   - Watch out for controlled minions
-
-2. **For Server Admins**
-   - Monitor server console for boss evolution messages
-   - Boss fights may last longer than vanilla
-   - Skill combinations are random but balanced
-   - All changes are server-side and sync automatically
-
-## ⚠️ Known Limitations
-
-- Wall of Flesh cannot receive movement-based skills
-- Some boss combinations might be more challenging than others
-- Minion control is limited to a specific range around the boss
-
-## 🔧 Troubleshooting
-
-If you encounter issues:
-1. Check server logs for error messages
-2. Ensure your TShock version is compatible
-3. Verify the plugin is properly loaded
-4. Restart the server if bosses aren't evolving
-
-## 🆕 Future Updates
-
-Planned features:
-- More skill combinations
-- Custom skill configurations
-- Additional boss mechanics
-- Enhanced visual effects
+将你的 Terraria 服务器变成一个激动人心的战场，每场 Boss 战都将成为独一无二、令人难忘的体验！
 
 ---
+由 GILX_Dev TERRARIAVUI 用 ❤️ 制作
 
-Remember: Each boss fight will be unique! Prepare accordingly and enjoy the enhanced challenge!
+## 📖 安装方法
 
-## If you're feeling happy, you can support me with a cup of coffee so I can develop more new plugins. 💰 USDT BEP20:
+1. 从发布页面下载最新的 release
+2. 将 `BossEvolution.dll` 放入服务器的 `ServerPlugins` 文件夹
+3. 重启 TShock 服务器
+
+## 💡 使用提示
+
+1. **玩家须知**
+   - 关注 Boss 名称提示，了解可能遭遇的技能
+   - 做好后期阶段难度提升的准备
+   - 持续移动以躲避预判攻击
+   - 小心被控制的仆从
+
+2. **服务器管理员须知**
+   - 监控服务器控制台的 Boss 进化消息
+   - Boss 战可能比原版持续更久
+   - 技能组合随机但平衡
+   - 所有改动均在服务端处理并自动同步
+
+## ⚠️ 已知限制
+
+- 血肉墙无法获得位移类技能
+- 某些 Boss 组合可能比其他组合更具挑战性
+- 仆从控制范围仅限于 Boss 周围一定区域
+
+## 🔧 故障排查
+
+如遇到问题：
+1. 检查服务器日志中的错误信息
+2. 确保 TShock 版本兼容
+3. 确认插件已正确加载
+4. 若 Boss 未进化，请重启服务器
+
+## 🆕 后续更新计划
+
+计划特性：
+- 更多技能组合
+- 自定义技能配置
+- 额外的 Boss 机制
+- 增强的视觉效果
+
+---
+
+请记住：每场 Boss 战都是独一无二的！做好准备，享受增强的挑战吧！
+
+## 如果你觉得满意，可以请我喝杯咖啡支持我，让我开发更多新插件。💰 USDT BEP20：
 
 ## 0x8aee3593c393dce65e0ad240c2face53eb80168d
 
-## Thank you so much! ☕🚀
-
-
-
+## 非常感谢！☕🚀
